@@ -7,10 +7,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatSliderModule } from '@angular/material/slider';
 import {MatTabsModule} from '@angular/material/tabs';
-import { ListeningComponent } from './components/listening/listening.component';
-import { SpeakingComponent } from './components/speaking/speaking.component';
-import { WritingComponent } from './components/writing/writing.component';
-import { VocabularyComponent } from './components/vocabulary/vocabulary.component';
+import { ListeningComponent } from './components/menu/listening/tab/listening.component';
+import { SpeakingComponent } from './components/menu/speaking/tab/speaking.component';
+import { WritingComponent } from './components/menu/writing/tab/writing.component';
+import { VocabularyComponent } from './components/menu/vocabulary/tab/vocabulary.component';
 
 
 @NgModule({
